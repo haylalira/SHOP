@@ -1,10 +1,13 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import { getCssText } from "../styles";
 import React from "react";
+
 export default function Document() {
   return (
     <Html lang="pt">
-      <Head>
+      <Head>  
+    
+  
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
@@ -24,6 +27,7 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+      
       </body>
     </Html>
   );
